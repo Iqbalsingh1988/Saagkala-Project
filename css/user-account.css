@@ -1,0 +1,203 @@
+
+/* start my profile css */
+
+.pd_left_main{
+    width: 100%;
+}
+
+.profile_deshboard_left{
+    width: 100%;
+    background: var(--theme-white-color);
+    box-shadow: 0 8px 34px 0 rgba(0, 0, 0, 0.15);
+}
+
+.profile_deshboard_left .profile_user .user_img{
+    width: min(max(90px, 8.802vw), 169px);
+    height: min(max(90px, 8.802vw), 169px);
+    display: inline-block;
+    overflow: hidden;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.profile_deshboard_left .profile_user .user_img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.profile_deshboard_left .profile_user {
+    text-align: center;
+    padding-top: min(max(16px, 1.458vw), 28px);
+}
+
+.profile_deshboard_left .profile_user .fs-24{
+    font-family: var(--theme-font-prata);
+    margin-top: min(max(5px, 0.521vw), 10px);
+    font-weight: 400;
+}
+
+.user_profile_list {
+    margin-top: min(max(8px, 0.625vw), 12px);
+}
+
+.user_profile_list ul{
+   padding: 0;
+   margin: 0;
+}
+
+.user_profile_list ul li{
+   padding-top: min(max(14px, 1.25vw), 24px);
+   padding-bottom: min(max(14px, 1.25vw), 24px);
+   padding-left: min(max(25px, 3.125vw), 60px);
+   padding-right: min(max(15px, 1.302vw), 25px);
+   background: var(--theme-white-color);
+   border-bottom: 1px solid var(--theme-yellow-color);
+}
+
+.user_profile_list ul li:last-child{
+    border-bottom: none;
+}
+
+.user_profile_list ul li.is-active{
+   background: var(--theme-yellow-color);
+   border-bottom: none;
+}
+
+.user_profile_list ul li a {
+    display: flex;
+    align-items: center;
+    column-gap: min(max(12px, 1.146vw), 22px);
+    color: var(--theme-black-color);
+}
+
+.user_profile_list ul li.is-active a{
+    color: var(--theme-white-color);
+}
+
+.user_profile_list ul li .list_icon{
+    width: min(max(20px, 1.25vw), 24px);
+    height: min(max(20px, 1.25vw), 24px);
+    line-height: normal;
+}
+
+.user_profile_list ul li .list_icon svg{
+    width: 100%;
+    height: 100%;
+}
+
+.user_profile_list ul li .fs-24{
+    line-height: normal;
+}
+
+
+
+
+.edit_profile_main{
+    width: 100%;
+    padding-left: min(max(40px, 4.167vw), 80px);
+}
+
+
+.edit_main__head{
+    border-bottom: 1px solid var(--theme-yellow-color);
+    padding-bottom: min(max(12px, 0.938vw), 18px);
+    justify-content: space-between;
+    column-gap: 20px;
+}
+
+.edit_prodile_btn_main{
+
+}
+
+.edit_main__head{
+
+}
+
+.my_profile_content_box{
+    position: relative;
+    width: 100%;
+    margin-top: 30px;
+}
+
+.my_profile_content_box form{
+    width: 100%;
+}
+
+.my_profile_content_box::before{
+    content: "";
+    border: 1px solid var(--theme-light-black-color);
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    opacity: 0.25;
+    z-index: -1;
+}
+
+.profile_sub_title{
+    width: 100%;
+}
+
+.profile_sub_title{
+    background: var(--theme-yellow-color);
+}
+
+.profile_sub_title .fs-24 {
+    padding-top: min(max(14px, 1.25vw), 24px);
+    padding-bottom: min(max(14px, 1.25vw), 24px);
+    padding-left: min(max(15px, 2.083vw), 40px);
+    padding-right: min(max(15px, 1.302vw), 25px);
+    color: var(--theme-white-color);
+}
+
+
+.profile_form_box_inner_main{
+    padding-top: min(max(14px, 1.25vw), 24px);
+    padding-bottom: min(max(14px, 1.25vw), 24px);
+    padding-left: min(max(15px, 2.083vw), 40px);
+    padding-right: min(max(15px, 1.302vw), 25px);
+}
+
+.profile_form_box_inner_main .right_tab_data{
+    width: 100%;
+    flex: 1;
+    color: var(--theme-black-color);
+}
+
+.profile_form_box_inner_main .left_tag {
+    width: 22%;
+    color: var(--theme-light-black-color);
+}
+
+.profile_form_box_inner{
+    padding-bottom: 24px;
+}
+
+.profile_form_box_inner:last-child{
+    padding-bottom: 0px;
+}
+
+
+/* end my profile css */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

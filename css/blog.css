@@ -1,0 +1,136 @@
+/* Blog Listing section start */
+    .blog__listing_section {
+        position: relative;
+        width: 100%;
+    }
+
+    .blog_listing_tabs {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.25);
+    margin-bottom: 3.125vw;
+}
+
+.blog_listing_wrap {
+    display: none;
+}
+.blog_listing_wrap.tab-active {
+    display: block;
+}
+
+.blog_listin_row {
+    flex-wrap: wrap;
+    column-gap:  min(1.30208vw, 1.5625rem);
+    row-gap: min(4.6875vw, 5.625rem);
+}
+.blog_listin_col {
+    width: calc((100% - 50px) / 3);
+    border: 1px solid rgba(64, 64, 64, 0.25);
+    background: var(--theme-white-color);
+}
+.blog_listin_col:hover {
+    border: 1px solid var(--theme-yellow-color);
+    box-shadow: 0 8px 14px 0 rgba(0, 0, 0, 0.30);
+}
+.blog_listing_img:hover img {
+      transform: scale(1.2);
+      -webkit-transform: scale(1.2);
+      -moz-transform: scale(1.2);
+      -ms-transform: scale(1.2);
+      -o-transform: scale(1.2);
+      transition: 0.5s;
+      -webkit-transition: 0.5s;
+      -moz-transition: 0.5s;
+      -ms-transition: 0.5s;
+      -o-transition: 0.5s;
+}
+
+.blog_listin_col .blog_listing_cnt {
+    padding: min(1.30208vw, 1.5625rem);
+}
+.blog_listin_col .blog_listing_cnt .fs-24 {
+    padding-bottom: min(1.14583vw, 1.375rem);
+    color: var(--theme-light-black-color);
+    line-height: 1.5;
+}
+.blog_listing_img {
+    width: 100%;
+    overflow: hidden;
+}
+.blog_listing_img img {
+    width: 100%;
+}
+.blog_listin_col .blog_listing_cnt .fs-18 {
+    opacity: 0.5;
+}
+
+.blog_listing-article {
+    position: relative;
+}
+.blog_listing-article .tree_bg_wrap {
+    top: 0;
+    right: -2%;
+    width: 29.94792vw;
+}
+
+@media only screen and (max-width: 1199px) {
+.blog_listing_tabs {
+    margin-bottom: 4.125vw;
+}
+.blog_listin_row {
+    column-gap: 25px;
+}
+.blog_listin_col .blog_listing_cnt .fs-24 {
+    padding-bottom: 15px;
+}
+.blog_listin_col .blog_listing_cnt .fs-18 {
+    line-height: normal;
+}
+.blog__details_bottom {
+    padding-top: 20px;
+}
+.blog_listing-article .tree_bg_wrap {
+    top: 0;
+    right: -2%;
+    width: 35.94792vw;
+}
+}
+@media only screen and (max-width: 991px) {
+.blog_listing-article .tree_bg_wrap {
+    width: 40.94792vw;
+}
+.blog_listin_col {
+    width: calc((100% - 30px) / 2);
+}
+.blog_listin_row {
+    column-gap: 20px;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+.blog_listin_col .blog_listing_cnt {
+    padding: 22px;
+}
+.blog_listin_col .blog_listing_cnt {
+    padding: 22px;
+}
+}
+@media only screen and (max-width: 767px) {
+.blog__listing_section.pt-70 {
+    padding-top: 35px;
+    padding-bottom: 50px
+}
+.blog_listin_col {
+    width: calc((100% - 0px) / 1);
+}
+.blog_listin_row {
+    margin-top: 15px;
+}
+.blog_listin_row {
+    row-gap: 30px;
+}
+.blog__listing_section .blog_listing_load_btn {
+    padding-top: 40px;
+}
+.blog_listing-article .tree_bg_wrap {
+        width: 48.94792vw;
+    }
+}
+/* Blog Listing section end */

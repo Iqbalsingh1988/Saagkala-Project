@@ -1,0 +1,36 @@
+.privacy_policy_heading {
+    position: relative;
+}
+.privacy_policy_heading::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 1px;
+    background: #D9A404;
+}
+.privacy_policy_sec .about__company_content {
+    max-width: 95%;
+    margin: auto;
+}
+   
+@media only screen and (max-width: 1199px) {
+.about__company_section.faq__about_section.privacy_policy_sec {
+    padding-top: 50px;
+    padding-bottom: 25px;
+}
+
+}
+@media only screen and (max-width: 991px) {
+.about__company_section.faq__about_section.privacy_policy_sec .privacy_policy_heading.pb-80 {
+    padding-bottom: 40px;
+}
+.about__company_section.faq__about_section.privacy_policy_sec .privacy_policy_row {
+    padding-top: 40px;
+}
+.privacy_policy_sec .about__company_content {
+    max-width: 100%;
+}
+}

@@ -1,0 +1,389 @@
+/* Get Touch CSS Start */
+.get_touch_inner {
+    justify-content: space-between;
+}
+
+.get_touch_left {
+    width: 100%;
+    max-width: min(35.9375vw, 43.125rem);
+    padding-top: min(0.625vw, 0.75rem);
+}
+
+.get_touch_left .contact_form {
+    margin-top: 1.979vw;
+}
+
+.get_touch_left .form_row {
+    display: flex;
+    gap: 1.354vw;
+    margin-bottom: min(1.5625vw, 1.875rem);
+}
+
+.get_touch_left .form_group {
+    width: 100%;
+}
+
+.get_touch_left .form_group input,
+.get_touch_left .form_group select {
+    width: 100%;
+    padding: 0.833vw 0.625vw;
+    color: #404040;
+    border: 1px solid rgba(0, 0, 0, 0.25);
+    border-radius: 8px;
+    font-size: 0.938vw;
+    outline: none;
+    height: min(2.86458vw, 3.4375rem);
+}
+
+.get_touch_left .form_group input::placeholder {
+    opacity: 0.7;
+}
+
+.get_touch_left .form_group select {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    cursor: pointer;
+    color: rgba(0, 0, 0, 0.4);
+    background-image: url(../images/contact-us/down-arrow.webp);
+    background-repeat: no-repeat;
+    background-position: 95%;
+    background-size: 15px;
+    line-height: 1;
+}
+
+.get_touch_left .product__details_bottom {
+    padding-top: min(1.45833vw, 1.75rem);
+    padding-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+    margin-top: 0;
+    white-space: nowrap;
+    border: none;
+}
+
+.get_touch_right_img {
+    width: 100%;
+    max-width: min(29.58333vw, 35.5rem);
+}
+
+.get_touch_right_img img {
+    width: 100%;
+}
+
+@media screen and (max-width: 1199px) {
+    .get_touch_left {
+        max-width: min(44.79167vw, 53.75rem);
+    }
+
+    .get_touch_right_img {
+        max-width: min(38.27917vw, 41.375rem);
+    }
+
+    .get_touch_left .form_group input,
+    .get_touch_left .form_group select {
+        font-size: 14px;
+        height: 45px;
+    }
+
+    .get_touch_left .form_group input,
+    .get_touch_left .form_group select {
+        padding-left: 12px;
+    }
+
+    .get_touch_left .form_group select {
+        background-size: 12px;
+    }
+
+    .get_touch_left .product__details_bottom {
+        padding-top: 25px;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .get_touch_left {
+        max-width: 899px;
+    }
+
+    .get_touch_right_img {
+        max-width: 740px;
+    }
+
+    .get_touch_left .form_row {
+        margin-bottom: 20px;
+    }
+
+    .get_touch_left .form_row {
+        gap: 15px;
+    }
+
+    .get_touch_left .product__details_bottom {
+        padding-top: 44px;
+    }
+
+    .get_touch_left .form_group input,
+    .get_touch_left .form_group select {
+        font-size: 14px;
+        padding: 16px 32px;
+    }
+
+    .get_touch_left .form_group select {
+        background-size: 15px;
+    }
+
+    .get_touch_right {
+        margin-top: 30px;
+    }
+}
+
+
+@media screen and (max-width: 767px) {
+    .get_touch_inner {
+        flex-direction: column;
+    }
+
+    .get_touch_left {
+        max-width: 100%;
+    }
+
+    .get_touch_right_img {
+        max-width: 100%;
+    }
+
+    .get_touch_left .form_row {
+        gap: 20px;
+        margin-bottom: 20px;
+        flex-wrap: wrap;
+    }
+
+    .get_touch_left .product__details_bottom {
+        padding-top: 35px;
+    }
+
+    .get_touch_left .contact_form {
+        margin-top: 25px;
+    }
+}
+
+/* Get Touch CSS End */
+
+
+/* Customer Service CSS Start */
+.customer_service_inner {
+    align-items: center;
+    justify-content: space-between;
+}
+
+.customer_service_col {
+    position: relative;
+    width: calc((100% - 52px) / 3);
+}
+
+.customer_service_col::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.65);
+}
+
+.customer-service_cnt {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    width: 100%;
+    text-align: center;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+}
+
+.customer_service_img {
+    width: 100%;
+}
+
+.customer_service_img img {
+    width: 100%;
+}
+
+.customer_service_icon {
+    width: 100%;
+    max-width: min(2.91667vw, 3.5rem);
+    margin: 0 auto;
+    margin-bottom: min(2.188vw, 2.625rem);
+}
+
+.customer_service_icon img {
+    width: 100%;
+}
+
+.customer-service_cnt .content_wrap {
+    width: 100%;
+    max-width: min(17.031vw, 20.375rem);
+    margin: auto;
+    margin-top: min(0.521vw, 0.625rem);
+    margin-bottom: min(2.865vw, 3.4375rem);
+}
+
+.customer_service_tel {
+    align-items: center;
+    justify-content: center;
+    gap: min(0.729vw, 0.875rem);
+}
+
+.customer_service_tel_icon {
+    width: min(1.042vw, 1.25rem);
+    height: min(1.042vw, 1.25rem);
+    background: rgba(255, 255, 255, 0.25);
+    border: 1px solid #fff;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+aside {
+    position: relative;
+}
+
+aside .tree_bg_wrap {
+    position: absolute;
+    top: 47%;
+    transform: translateY(-50%);
+    right: min(-1.5625vw, -1.875rem);
+    width: min(54.84375vw, 65.8125rem);
+    /* height: min(45.15625vw, 54.1875rem);   */
+}
+
+aside .tree_bg_wrap img {
+    width: 100%;
+}
+
+@media screen and (max-width: 1199px) {
+
+    .customer-service_cnt .content_wrap {
+        max-width: min(26.031vw, 31.25rem);
+        margin-bottom: 22px;
+        margin-top: 15px;
+    }
+
+    .customer_service_tel_icon {
+        width: min(2.042vw, 2.5rem);
+        height: min(2.042vw, 2.5rem);
+    }
+
+    .customer_service_tel {
+        gap: min(1.129vw, 1.375rem);
+    }
+
+
+    .customer-service_cnt {
+        max-width: 90%;
+        margin: auto;
+    }
+
+    .customer_service_icon {
+        margin-bottom: min(1.188vw, 1.375rem);
+    }
+
+    section.customer_service_sec.pt-70 {
+        padding-top: 45px;
+    }
+
+}
+
+@media screen and (max-width: 991px) {
+    .customer_service_tel_icon {
+        width: 2.438vw;
+        height: 2.438vw;
+    }
+
+    .customer_service_inner {
+        flex-wrap: wrap;
+        gap: 26px;
+    }
+
+
+    .customer-service_cnt .content_wrap {
+        max-width: 90%;
+        margin-bottom: 25px;
+    }
+
+    .customer_service_icon {
+        margin-bottom: 22px;
+        max-width: 42px;
+    }
+
+    .customer_service_tel_icon {
+        width: 3.438vw;
+        height: 3.438vw;
+    }
+
+
+    .get_touch_inner {
+        flex-direction: column;
+    }
+
+    .get_touch_left .form_group input,
+    .get_touch_left .form_group select {
+        font-size: 16px;
+        padding-left: 20px;
+        height: 55px;
+    }
+
+    .customer_service_col {
+        width: calc((100% - 30px) / 2);
+    }
+
+    .customer_service_img {
+        max-width: 100%;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .customer_service_img {
+        max-width: 100%;
+    }
+
+    .customer_service_tel_icon {
+        width: 5.438vw;
+        height: 5.438vw;
+    }
+
+    .customer_service_tel {
+        gap: 3.129vw;
+    }
+
+    .customer_service_col {
+        width: 100%;
+    }
+
+    .customer_service_icon {
+        margin-bottom: 25px;
+    }
+}
+
+/* Customer Service CSS End */
+
+
+/* Trending Product CSS Start */
+.contact_featured_products_sec {
+    width: 100%;
+    position: relative;
+}
+
+.contact_featured_products_sec .tree_bg_wrap {
+    position: absolute;
+    left: min(-5.104vw, 6.125rem);
+    top: 0;
+    right: inherit;
+}
+
+/* Trending Product CSS End */
